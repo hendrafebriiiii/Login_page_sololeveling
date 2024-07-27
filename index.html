@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class=" relative bg-[url('./image/bg.jpg')] bg-center bg-cover h-screen flex justify-center items-center h-full">
+    <div class="backdrop-blur-sm border-2 border-gray-400 rounded-3xl p-5 ">
+        <div class="flex justify-center">
+            <div class="bottom-2 mb-5 flex justify-center w-24 border-2 border-gray-400 rounded-full"><!--user-->
+                <img class="w-24" src="./image/icon/user.png" alt="">
+            </div>
+        </div>
+        <div><!--form-->
+            <div class=" flex relative"><!--email-->
+                <div class="flex absolute bottom-1 left-1 gap-1">
+                    <img class="w-6 h-6" src="./image/icon/user.png" alt="">
+                    <div class="rounded-lg bg-gray-200 w-0.5"></div>
+                </div>
+                <input class="bg-black opacity-40 w-full h-8 rounded-md pl-10 placeholder:text-gray-300 placeholder:font-semibold" type="email" placeholder="Email">
+            </div>
+            <div class="py-5 flex relative"><!--password-->
+                <div class="flex absolute bottom-6 left-1 gap-1">
+                    <img class="w-6 h-6" src="./image/icon/padlock.png" alt="">
+                    <div class="rounded-lg bg-gray-200 w-0.5"></div>
+                </div>
+                <input class="bg-black opacity-40 w-full h-8 rounded-md pl-10 placeholder:text-gray-300 placeholder:font-semibold" type="password" placeholder="Password">
+            </div>
+            <div>
+                <a href=""><button class="rounded-md bg-gray-400 w-full ">LOGIN</button></a>
+            </div>
+            <div class="my-3 bg-gray-300 rounded-full w-full h-0.5" ></div><!--garis-->
+            <div class="flex justify-center">
+                <a class="text-gray-400" href="">REGISTER</a>
+            </div>
+        </div>
+    </div>
+    <div class="absolute right-5 bottom-5">
+        <h1 class=" text-gray-400">Hendra.F <span>2024</span></h1>
+    </div>
+</body>
+
+</html>
